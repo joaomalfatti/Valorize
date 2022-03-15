@@ -35,3 +35,6 @@ app.post("/teste-post", (request, response) => {
 Entity (User) <-> ORM <-> BD
         Camadas = Repositórios
         
+ /*Services */
+
+  - server -> (     ) -> SERVICE -> Repositories -> BD
