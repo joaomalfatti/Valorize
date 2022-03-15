@@ -29,3 +29,9 @@ app.post("/teste-post", (request, response) => {
 });
 
 // http://localhost:3000
+
+/* Reposítorios */
+
+Entity (User) <-> ORM <-> BD
+        Camadas = Repositórios
+        
