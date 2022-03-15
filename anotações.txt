@@ -38,3 +38,9 @@ Entity (User) <-> ORM <-> BD
  /*Services */
 
   - server -> (     ) -> SERVICE -> Repositories -> BD
+
+
+/*
+    -server -> routes -> Controller -> Serivce (throw new Error)
+
+*/
